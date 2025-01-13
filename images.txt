@@ -10,3 +10,4 @@ mysql
 mysql:8
 pgvector/pgvector:pg16
 hello-world
+python:3.11.10-slim-bullseye
