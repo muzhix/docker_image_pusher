@@ -18,3 +18,4 @@ apache/iotdb:latest
 minio/minio:latest
 minio/minio:RELEASE.2021-04-22T15-44-28Z.hotfix.56647434e
 nodered/node-red:4.0.2-22
+bladex/node-red-pro:latest
