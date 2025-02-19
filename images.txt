@@ -9,6 +9,7 @@ redis
 valkey/valkey:8
 mysql
 mysql:8
+mysql:8.0.39
 pgvector/pgvector:pg16
 hello-world
 python:3.11.10-slim-bullseye
