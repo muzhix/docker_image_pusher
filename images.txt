@@ -7,9 +7,11 @@
 nginx
 redis
 valkey/valkey:8
+--platform=linux/arm64 valkey/valkey:8
 mysql
 mysql:8
 mysql:8.0.39
+--platform=linux/arm64 mysql:8.0.39
 pgvector/pgvector:pg16
 hello-world
 python:3.11.10-slim-bullseye
@@ -21,6 +23,7 @@ apache/iotdb:latest
 minio/minio:latest
 minio/minio:RELEASE.2021-04-22T15-44-28Z.hotfix.56647434e
 quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z
+--platform=linux/arm64 quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z
 nodered/node-red:4.0.2-22
 bladex/node-red-pro:latest
 
@@ -30,3 +33,5 @@ infiniflow/ragflow:v0.16.0
 infiniflow/infinity:v0.6.0-dev3
 # elasticsearch
 docker.elastic.co/elasticsearch/elasticsearch:8.11.3
+--platform=linux/arm64 docker.elastic.co/elasticsearch/elasticsearch:8.11.3
+
