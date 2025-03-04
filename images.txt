@@ -35,3 +35,24 @@ infiniflow/infinity:v0.6.0-dev3
 docker.elastic.co/elasticsearch/elasticsearch:8.11.3
 --platform=linux/arm64 docker.elastic.co/elasticsearch/elasticsearch:8.11.3
 
+# bladex
+bladex/alpine-java:openjdk17_cn_slim
+nacos/nacos-server:v2.4.3
+bladex/sentinel-dashboard:1.8.6
+seataio/seata-server:1.6.1
+nginx:stable-alpine-perl
+redis:7-alpine
+powerjob/powerjob-server:4.3.6
+prom/prometheus:v2.24.1
+prom/node-exporter:v1.0.1
+prom/mysqld-exporter:v0.12.1
+google/cadvisor:v0.33.0
+grafana/grafana:7.3.7
+prom/alertmanager:v0.21.0
+timonwong/prometheus-webhook-dingtalk:v1.4.0
+mobz/elasticsearch-head:5
+docker.elastic.co/beats/filebeat:7.1.1
+docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+docker.elastic.co/elasticsearch/elasticsearch:7.17.11
+docker.io/apache/skywalking-oap-server:9.5.0
+docker.io/apache/skywalking-ui:9.5.0
