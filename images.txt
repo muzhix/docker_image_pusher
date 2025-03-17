@@ -5,11 +5,14 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 
 nginx
+--platform=linux/arm64 nginx
 redis
+--platform=linux/arm64 redis
 valkey/valkey:8
 --platform=linux/arm64 valkey/valkey:8
 mysql
 mysql:8
+--platform=linux/arm64 mysql:8
 mysql:8.0.39
 --platform=linux/arm64 mysql:8.0.39
 pgvector/pgvector:pg16
