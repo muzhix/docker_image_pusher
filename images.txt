@@ -16,19 +16,25 @@ mysql:8
 mysql:8.0.39
 --platform=linux/arm64 mysql:8.0.39
 pgvector/pgvector:pg16
+--platform=linux/arm64 pgvector/pgvector:pg16
 hello-world
 python:3.11.10-slim-bullseye
 tdengine/tdengine:latest
+--platform=linux/arm64 tdengine/tdengine:latest
 influxdb:1.8.10
 influxdb:latest
+--platform=linux/arm64 influxdb:latest
 apache/iotdb:latest
+--platform=linux/arm64 apache/iotdb:latest
 # minio
 minio/minio:latest
+--platform=linux/arm64 minio/minio:latest
 minio/minio:RELEASE.2021-04-22T15-44-28Z.hotfix.56647434e
 quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z
 --platform=linux/arm64 quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z
 nodered/node-red:4.0.2-22
 bladex/node-red-pro:latest
+--platform=linux/arm64 bladex/node-red-pro:latest
 
 # ragflow
 infiniflow/ragflow:v0.16.0-slim
