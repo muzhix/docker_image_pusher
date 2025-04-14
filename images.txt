@@ -46,8 +46,13 @@ docker.elastic.co/elasticsearch/elasticsearch:8.11.3
 
 # bladex
 bladex/alpine-java:openjdk17_cn_slim
+--platform=linux/arm64 bladex/alpine-java:openjdk17_cn_slim
 nacos/nacos-server:v2.4.3
 bladex/sentinel-dashboard:1.8.6
+bladex/sentinel-dashboard:latest
+--platform=linux/arm64 bladex/sentinel-dashboard:latest
+bladex/rabbitmq:3.8.9-management-delayed-message
+--platform=linux/arm64 bladex/rabbitmq:3.8.9-management-delayed-message
 seataio/seata-server:1.6.1
 nginx:stable-alpine-perl
 redis:7-alpine
