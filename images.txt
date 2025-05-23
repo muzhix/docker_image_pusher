@@ -52,7 +52,6 @@ bladex/sentinel-dashboard:1.8.6
 bladex/sentinel-dashboard:latest
 --platform=linux/arm64 bladex/sentinel-dashboard:latest
 bladex/rabbitmq:3.8.9-management-delayed-message
---platform=linux/arm64 bladex/rabbitmq:3.8.9-management-delayed-message
 seataio/seata-server:1.6.1
 nginx:stable-alpine-perl
 redis:7-alpine
