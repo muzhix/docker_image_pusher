@@ -76,8 +76,8 @@ nacos/nacos-server:v2.5.1
 --platform=linux/arm64 nacos/nacos-server:v2.5.1
 powerjob/powerjob-server:4.3.6
 --platform=linux/arm64 powerjob/powerjob-server:4.3.6
-powerjob/powerjob-server:5.1.1
---platform=linux/arm64 powerjob/powerjob-server:5.1.1
+#powerjob/powerjob-server:5.1.1
+#--platform=linux/arm64 powerjob/powerjob-server:5.1.1
 seataio/seata-server:1.6.1
 --platform=linux/arm64 seataio/seata-server:1.6.1
 bladex/sentinel-dashboard:1.8.8
