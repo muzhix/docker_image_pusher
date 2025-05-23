@@ -94,3 +94,9 @@ prom/alertmanager:v0.21.0
 timonwong/prometheus-webhook-dingtalk:v1.4.0
 --platform=linux/arm64 timonwong/prometheus-webhook-dingtalk:v1.4.0
 google/cadvisor:v0.33.0
+
+# jetbrains
+jetbrains/teamcity-server:2025.03.2
+--platform=linux/arm64 jetbrains/teamcity-server:2025.03.2
+jetbrains/youtrack:2025.1.76253
+--platform=linux/arm64 jetbrains/youtrack:2025.1.76253
