@@ -1,2 +1,1 @@
---platform=linux/arm64 release.daocloud.io/kpanda/kindest-node:v1.25.3
---platform=linux/arm64 kindest/node:v1.30.13
+--platform=linux/arm64 kindest/node:v1.33.1
