@@ -1,1 +1,8 @@
---platform=linux/arm64 kindest/node:v1.33.1
+--platform=linux/arm64 nacos/nacos-server:v2.5.1
+nacos/nacos-server:v2.5.1
+google/cadvisor:v0.33.0
+--platform=linux/arm64 google/cadvisor:v0.33.0
+grafana/grafana:7.3.7
+--platform=linux/arm64 grafana/grafana:7.3.7
+timonwong/prometheus-webhook-dingtalk:v1.4.0
+--platform=linux/arm64 timonwong/prometheus-webhook-dingtalk:v1.4.0
