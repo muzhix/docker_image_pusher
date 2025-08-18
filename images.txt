@@ -1,8 +1,2 @@
---platform=linux/arm64 postgres:16
-postgres:16
---platform=linux/arm64 redis:7
-redis:7
---platform=linux/arm64 dokploy/dokploy:latest
-dokploy/dokploy:latest
---platform=linux/arm64 traefik:v3.1.2
-traefik:v3.1.2
+--platform=linux/arm64 bladex/alpine-java:openjdk17_cn_slim
+bladex/alpine-java:openjdk17_cn_slim
