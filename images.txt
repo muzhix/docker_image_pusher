@@ -1,6 +1,1 @@
-docker.io/library/mysql:8
-docker.gitea.com/gitea:1.24.4
-postgres:16
-redis:7
-dokploy/dokploy:latest
-traefik:v3.6.1
+docker.io/library/mysql:8.0.44
