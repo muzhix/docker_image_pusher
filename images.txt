@@ -1,2 +1,6 @@
---platform=linux/arm64 bladex/alpine-java:openjdk17_cn_slim
-bladex/alpine-java:openjdk17_cn_slim
+docker.io/library/mysql:8
+docker.gitea.com/gitea:1.24.4
+postgres:16
+redis:7
+dokploy/dokploy:latest
+traefik:v3.6.1
